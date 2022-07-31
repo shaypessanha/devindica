@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react'
 import Header from '../../components/Header/Header'
 import { FiTrash2, FiPlus } from 'react-icons/fi'
@@ -163,7 +162,7 @@ function Indicar() {
         </section>
 
         <section className="list-items-section">
-          <details className="group-collapsable">
+          <details className="group-collapsable" open>
             <summary>
               {indicarList.length || 0} vagas no total
             </summary>

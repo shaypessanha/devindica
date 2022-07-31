@@ -144,7 +144,7 @@ function Meindica() {
         </section>
 
         <section className="list-item-section">
-          <details className="group-collapsable">
+          <details className="group-collapsable" open>
             <summary>
               {meindicaList.length || 0} vagas no total
             </summary>

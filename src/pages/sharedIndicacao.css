@@ -3,7 +3,24 @@
   gap: 8px;
   background-color: hsl(70, 2%, 90%);
   min-height: 80vh;
-  
+  position: relative;
+  z-index: 1;
+}
+.page-content::before {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  top: 0%;
+  content: "";
+  z-index: -1;
+  background: url("../../assets/undraw_connecting_teams_re_hno7.svg");
+  opacity: 20%;
+  background-position: center 10vh;
+  background-repeat: no-repeat;
+  /* background-size: contain; */
 }
 .page-content > main {
   display: grid;
