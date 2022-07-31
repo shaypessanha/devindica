@@ -1,7 +1,9 @@
 .page-content {
-  display: grid;
+  /* display: grid; */
   gap: 8px;
   background-color: hsl(70, 2%, 90%);
+  min-height: 80vh;
+  
 }
 .page-content > main {
   display: grid;
@@ -9,6 +11,7 @@
   max-width: 900px;
   padding: 16px 0px;
   padding-bottom: 32px;
+  /* min-width: 900px; */
 }
 
 

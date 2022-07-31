@@ -22,9 +22,9 @@ html, body {
 }
 
 body > #root {
-  display: flex;
+  display: grid;
   flex-direction: column;
-  min-height: 900px;
+  /* min-height: 900px; */
   /* justify-content: space-between; */
   
 }

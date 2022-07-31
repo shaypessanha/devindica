@@ -5,7 +5,7 @@
     background-color: #1f5d75;
     height: 8em;
     /* align-self: flex-end; */
-    justify-self: flex-end;
+    align-self: flex-end;
 }
 .footer > p {
     text-align: center;
