@@ -8,3 +8,7 @@
     display: grid;
     gap: 16px;
 }
+
+.home-page::before {
+    display: none;
+}
