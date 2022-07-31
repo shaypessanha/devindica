@@ -50,6 +50,12 @@ function Meindica() {
     setLocalStorageList([...localStorageList, item]);
     console.log(item);
     console.log(localStorage.getItem('localStorage_MeIndica'));
+    setUserName('');
+    setDescricao('');
+    setExperience('');
+    setPortifolio('');
+    setContato('');
+
     // setNewItem('')
   }
 

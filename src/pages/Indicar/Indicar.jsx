@@ -54,6 +54,14 @@ function Indicar() {
     console.log(item);
     console.log(localStorage.getItem('localStorage_Indicar'));
     // setNewItem('')
+    setUserName('');
+    setEmpresa('');
+    setVagaTitle('');
+    setVagaLink('');
+    setTechList('');
+    setExperience('');
+    setContato('');
+
   }
 
   useEffect(() => {
