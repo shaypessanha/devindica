@@ -1,0 +1,10 @@
+.home-image {
+    height: 60vh;
+    justify-self: center;
+    margin: 16px 0;
+}
+
+.home-page {
+    display: grid;
+    gap: 16px;
+}

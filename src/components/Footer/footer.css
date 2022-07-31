@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272822;
+    height: 3em;
+}
+.footer > p {
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.footer a {
+    color: #26a6d9;
+}
