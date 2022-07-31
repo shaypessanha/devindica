@@ -23,4 +23,4 @@ Um portal para troca de indicações de vagas focadas em Desenvolvimento de Soft
 > Desenvolvido por Shayanne Pessanha para entrega final de Front-End da {reprograma} 
 
 ## Link Netlify
-https://entrega-final-shaypessanha.netlify.com
+https://devindica-shaypessanha.netlify.com
