@@ -17,7 +17,7 @@ function Home() {
           description="Home page"
         >
           Um espaço para trocar indicações de vagas em TI<br/>
-          Bora se indicar!!!
+          Bora se indicar!
         </Header>
         <img className='home-image' src={image} alt="" srcset="" />
       </div>

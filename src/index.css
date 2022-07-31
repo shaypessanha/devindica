@@ -17,7 +17,16 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: hsl(70, 2%, 80%);
+  background-color: hsl(70, 2%, 90%);
+  /* min-height: 900px; */
+}
+
+body > #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 900px;
+  /* justify-content: space-between; */
+  
 }
 
 * {
@@ -31,4 +40,13 @@ input {
 
 a {
   color: #0691c8;
+}
+
+.menu .link {
+  color: #000;
+}
+
+.menu .link:hover {
+  color: #1f5d75;
+  font-weight: 600;
 }

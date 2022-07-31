@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #272822;
-    height: 3em;
+    background-color: #1f5d75;
+    height: 8em;
+    /* align-self: flex-end; */
+    justify-self: flex-end;
 }
 .footer > p {
     text-align: center;
@@ -12,5 +14,6 @@
     margin: 0;
 }
 .footer a {
-    color: #26a6d9;
+    color: #fff;
+    font-weight: 600;
 }

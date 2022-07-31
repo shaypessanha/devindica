@@ -1,13 +1,14 @@
 .page-content {
   display: grid;
   gap: 8px;
-  background-color: hsl(70, 2%, 80%);
+  background-color: hsl(70, 2%, 90%);
 }
 .page-content > main {
   display: grid;
   gap: 8px;
   max-width: 900px;
   padding: 16px 0px;
+  padding-bottom: 32px;
 }
 
 
@@ -17,7 +18,8 @@
   /* border: 1px solid #8a8a8a */
 }
 .group-collapsable > summary {
-  background-color: hsl(70, 8%, 15%);
+  background-color: hsl(70, 2%, 100%);
+  background-color: #1f5d75;
   border-radius: 5px;
   font-size: 20px;
   padding: 10px;
@@ -162,8 +164,17 @@ button {
 }
 
 .add-task {
-  background: hsl(70, 8%, 15%);
+  background: #1f5d75;
   width: 100px;
+  color: white;
+}
+
+.add-task:hover {
+  background: #1f5d75;
+  width: 100px;
+  color: white;
+  /* font-weight: 600; */
+  filter: brightness(115%);
 }
 
 main {

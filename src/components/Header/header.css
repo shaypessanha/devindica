@@ -9,8 +9,8 @@
   /* padding-top: 0px; */
   text-align: center;
   gap: 16px;
-  color: white;
-  background-color: hsl(70, 2%, 15%);
+  color: hsl(70, 2%, 15%);;
+  /* background-color: hsl(70, 2%, 15%); */
   background-size: cover;
   /* height: 500px; */
   /* margin-bottom: 300px; */
