@@ -16,6 +16,7 @@ function Menu() {
             {/* <li className="item">
                 <Link className="link" to="/Sobre">Sobre</Link>
             </li> */}
+            <span className='logo'>{'<'}dev.indica{'>'}</span>
         </ul>
     )
 }
